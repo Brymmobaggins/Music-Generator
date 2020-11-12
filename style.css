@@ -1,0 +1,31 @@
+/* .container {
+  display: grid; */
+
+header {
+  padding: 2em;
+  background-color: transparent;
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  font-family: "Tahoma";
+}
+.music {
+  font-size: 1.5em;
+  font-style: bold;
+  color: white;
+}
+.btn-large {
+  margin: 0.5em;
+}
+.card {
+  text-align: center;
+  width: 45em;
+  font-family: "Pacifico", cursive;
+  background-color: transparent;
+  border: none;
+}
+.new-music-button {
+  background-color: #00aeff;
+  border-color: none;
+  letter-spacing: 0.1px;
+}

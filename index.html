@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row flex-top justify-content-center">
+        <header class="border shadow">
+          <h1>Music Generator</h1>
+        </header>
+      </div>
+
+      <div class="row flex-top justify-content-center">
+        <button
+          id="button"
+          class="btn-large new-music-button"
+          onClick="getMusic()"
+        >
+          New Music
+        </button>
+      </div>
+
+      <div class="row justify-content-center">
+        <main class="card">
+          <p class="music card-body center" id="newMusicSection">...</p>
+        </main>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
