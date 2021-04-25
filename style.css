@@ -1,18 +1,19 @@
-/* .container {
-  display: grid; */
 
+body{
+  background-color:rgb(217, 250, 250)
+
+ } 
 header {
   padding: 2em;
-  background-color: transparent;
   margin-top: 2em;
   text-align: center;
-  color: #fff;
+  color: rgb(148, 147, 147);
   font-family: "Tahoma";
 }
 .music {
   font-size: 1.5em;
   font-style: bold;
-  color: white;
+  color: rgb(14, 13, 13);
 }
 .btn-large {
   margin: 0.5em;
@@ -20,12 +21,18 @@ header {
 .card {
   text-align: center;
   width: 45em;
-  font-family: "Pacifico", cursive;
-  background-color: transparent;
-  border: none;
+  border-radius: 25px;
+  margin-top: 15px;
 }
 .new-music-button {
   background-color: #00aeff;
-  border-color: none;
   letter-spacing: 0.1px;
+  margin-top: 20px;
+  border: 0px solid #00aeff;
+  border-radius: 5px;
+  color: white;
+  outline: 0;
+}
+.new-music-button:hover {
+  opacity: 0.5;
 }
