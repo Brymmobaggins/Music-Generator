@@ -44,4 +44,5 @@ header {
 :focus {
   /* opacity: 0.9; */
   border: 1px solid #d3d2d2f3;
+  outline: none;
 }
