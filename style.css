@@ -46,4 +46,5 @@ header {
   border: 1px solid #d3d2d2f3;
   outline: none;
   cursor: pointer;
+  opacity: 0.9;
 }
