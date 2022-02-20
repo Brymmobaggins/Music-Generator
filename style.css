@@ -1,5 +1,4 @@
 body {
-  /* background-color:rgb(217, 250, 250); */
   background-image: url(img/dancin_bg.jpg);
   background-size: cover;
   background-position: row;
@@ -26,6 +25,7 @@ header {
   width: 45em;
   border-radius: 25px;
   margin-top: 15px;
+  font-family: "Tahoma";
   background-color: transparent;
 }
 .new-music-button {
@@ -33,7 +33,6 @@ header {
   letter-spacing: 1px;
   margin-top: 20px;
   padding: 0.65rem;
-  /* border: 0px solid #00aeff; */
   border-radius: 5px;
   color: white;
   outline: none;
@@ -42,7 +41,6 @@ header {
 }
 .new-music-button:hover,
 :focus {
-  /* opacity: 0.9; */
   border: 1px solid #d3d2d2f3;
   outline: none;
   cursor: pointer;
